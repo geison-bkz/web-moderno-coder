@@ -23,4 +23,4 @@ externo: for (a in nums) {
   }
 }
 
-console.log("Fim!");
+console.log('Fim!');

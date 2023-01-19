@@ -4,8 +4,8 @@ for (i in notas) {
 }
 
 const pessoa = {
-  nome: "Geison",
-  sobrenome: "dos Santos",
+  nome: 'Geison',
+  sobrenome: 'dos Santos',
   idade: 34,
   peso: 62,
 };

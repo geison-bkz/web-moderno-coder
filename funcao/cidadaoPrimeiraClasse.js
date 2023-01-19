@@ -20,7 +20,7 @@ console.log(array[0](1, 2));
 // armazenar em um atributo de objeto
 const obj = {};
 obj.falar = function () {
-  return "Opa";
+  return 'Opa';
 };
 console.log(obj.falar());
 
@@ -30,7 +30,7 @@ function run(fun) {
 }
 
 run(function () {
-  console.log("Executando...");
+  console.log('Executando...');
 });
 
 // Uma função pode retornar/conter uma função

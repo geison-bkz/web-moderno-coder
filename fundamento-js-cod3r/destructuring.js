@@ -1,10 +1,10 @@
 // novo recuso do ES2015
 
 const pessoa = {
-  nome: "Geison",
+  nome: 'Geison',
   idade: 34,
   endereco: {
-    logradouro: "Rua teste",
+    logradouro: 'Rua teste',
     numero: 123,
   },
 };

@@ -12,13 +12,13 @@ function tratarErroELancar(erro) {
 
 function imprimirNomeGritado(obj) {
   try {
-    console.log(obj.name.toUpperCase() + "!!!");
+    console.log(obj.name.toUpperCase() + '!!!');
   } catch (e) {
     tratarErroELancar(e);
   } finally {
-    console.log("final");
+    console.log('final');
   }
 }
 
-const obj = { nome: "Geison" };
+const obj = { nome: 'Geison' };
 imprimirNomeGritado(obj);
